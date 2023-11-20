@@ -34,14 +34,26 @@
 
 // 7.- The pattern 'lluvia' was found in the text 'La lluvia en Sevilla es una maravilla', so the result is: lluvia.
 
-const text = 'La lluvia en Sevilla es una maravilla';
-const pattern = 'lluvia';
+// const text = 'La lluvia en Sevilla es una maravilla';
+// const pattern = 'lluvia';
 
-if (text.includes(pattern)) { console.log (`The pattern 'lluvia' was found in the text 'La lluvia en Sevilla es una maravilla', so the result is: ${pattern}.`);
+// if (text.includes(pattern)) { console.log (`The pattern 'lluvia' was found in the text 'La lluvia en Sevilla es una maravilla', so the result is: ${pattern}.`);
     
-} else {
-    console.log ('The pattern \'lluvia\' wasn\'t found in the text');
+// } else {
+//     console.log ('The pattern \'lluvia\' wasn\'t found in the text');
+// }
+
+//or
+
+const text = "La lluvia en Sevilla es una maravilla";
+const pattern = /lluvia/;
+const result = text.match(pattern);
+
+if (result) { console.log(`The pattern ${pattern} was found in the text "La lluvia en Sevilla es una maravilla" , so the result is: ${result[0]}.`)
+ } else {
+    console.log (`The pattern ${pattern} wasn\'t found in the text`);
 }
+
 
 
 
