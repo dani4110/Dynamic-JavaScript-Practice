@@ -6,6 +6,12 @@
 
 // 2.- My name in UpperCase is DANIEL.
 
-const myName = 'Daniel';
-const myNameUpperCase = myName.toUpperCase();
-console.log('My name in UpperCase is :' + myNameUpperCase);
+// const myName = 'Daniel';
+// const myNameUpperCase = myName.toUpperCase();
+// console.log('My name in UpperCase is :' + myNameUpperCase);
+
+// 3.- My name in LowerCase is : 'daniel';
+
+const Myname = "Daniel";
+const MyNameLowerCase = Myname.toLowerCase();
+console.log( 'My name in LowerCase is : ' + MyNameLowerCase);
