@@ -12,6 +12,14 @@
 
 // 3.- My name in LowerCase is : 'daniel';
 
-const Myname = "Daniel";
-const MyNameLowerCase = Myname.toLowerCase();
-console.log( 'My name in LowerCase is : ' + MyNameLowerCase);
+// const Myname = "Daniel";
+// const MyNameLowerCase = Myname.toLowerCase();
+// console.log( 'My name in LowerCase is : ' + MyNameLowerCase);
+
+// 4.- The ¡Hello World! message is 12 characters.
+
+const text = "¡Hello World!";
+console.log(`The ${text} message is ${text.length} characters.`);
+
+
+
